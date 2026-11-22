@@ -2,7 +2,7 @@
 
 **Masked Autoencoder (MAE) · Vision Transformer (ViT) · Self-Supervised Learning · Semantic Segmentation**
 
-Research project by **Md Ikram Tareq**, Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), 2025.
+Research project by **Md Ikram Tareq**, Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU), 2026.
 
 > **Reproducibility statement:** Benchmark results below are **reported in the supplied September 2025 research report or terminal screenshots**, not independently verified. The accompanying PyTorch code is a **new reference implementation** based on that methodology; it is **not the original experiment code** and has **not reproduced** the historic benchmark numbers. Original checkpoints and training scripts were not provided.
 
