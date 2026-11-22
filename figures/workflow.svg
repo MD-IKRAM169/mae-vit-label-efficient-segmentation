@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="250" viewBox="0 0 980 250" role="img"><rect width="980" height="250" fill="#fbfcfe"/>
+<text x="490" y="40" text-anchor="middle" font-family="Arial,sans-serif" font-size="25" font-weight="700" fill="#1f2937">MAE-ViT label-efficient segmentation</text>
+<rect x="35" y="78" width="260" height="112" rx="13" fill="#dbeafe" stroke="#4686bf" stroke-width="2"/>
+<text x="165" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#1e40af">1. MAE pretraining</text>
+<text x="165" y="139" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="400" fill="#233043">75% masked patches</text><text x="165" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="400" fill="#233043">unlabeled images</text>
+<path d="M298 134 H348" stroke="#334155" stroke-width="3"/><path d="M348 134 l-12 -7 v14 z" fill="#334155"/>
+<rect x="350" y="78" width="260" height="112" rx="13" fill="#e9d5ff" stroke="#8b5fbb" stroke-width="2"/>
+<text x="480" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#6b21a8">2. Segmentation head</text>
+<text x="480" y="139" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="400" fill="#233043">frozen encoder</text><text x="480" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="400" fill="#233043">pixelwise logits</text>
+<path d="M613 134 H663" stroke="#334155" stroke-width="3"/><path d="M663 134 l-12 -7 v14 z" fill="#334155"/>
+<rect x="665" y="78" width="275" height="112" rx="13" fill="#d1fae5" stroke="#2e9a71" stroke-width="2"/>
+<text x="802" y="108" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" font-weight="700" fill="#065f46">3. End-to-end fine-tune</text>
+<text x="802" y="139" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="400" fill="#233043">10% annotated images</text><text x="802" y="162" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" font-weight="400" fill="#233043">cross-entropy + Dice</text>
+<text x="490" y="231" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="400" fill="#64748b">Method summary reconstructed from the research report (not original model weights)</text>
+</svg>
