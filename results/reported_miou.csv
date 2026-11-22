@@ -1,0 +1,11 @@
+dataset,method,epochs,batch_size,label_fraction,miou_percent,source
+ADE20K,MAE-ViT,10,4,0.1,1.74,Report Fig. 6 and Table 5
+ADE20K,MAE-ViT,10,8,0.1,2.0,Report Table 5
+ADE20K,MAE-ViT,50,4,0.1,26.0,Report Table 5
+ADE20K,MAE-ViT,50,8,0.1,28.5,Report Fig. 6 and Table 5
+Cityscapes,MAE-ViT,10,4,0.1,0.32,Report Fig. 6 and Table 6
+Cityscapes,MAE-ViT,10,8,0.1,0.5,Report Table 6
+Cityscapes,MAE-ViT,50,4,0.1,16.0,Report Table 6
+Cityscapes,MAE-ViT,50,8,0.1,18.2,Report Fig. 6 and Table 6
+ADE20K,OneFormer,,,1.0,57.7,External reference cited by report
+Cityscapes,OneFormer,,,1.0,83.0,External reference cited by report

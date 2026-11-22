@@ -1,0 +1,5 @@
+# Preferred install: python -m pip install -e '.[dev]'
+torch>=2.0
+numpy>=1.24
+Pillow>=9.1
+pytest>=7.4

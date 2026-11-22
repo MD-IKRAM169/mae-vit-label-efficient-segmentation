@@ -1,0 +1,17 @@
+dataset,epochs_planned,batch_size,epoch_observed,reconstruction_loss
+ADE20K,10,4,1,0.9426
+ADE20K,10,4,10,0.0347
+ADE20K,10,8,1,0.9400
+ADE20K,10,8,10,0.0330
+ADE20K,50,4,1,0.9300
+ADE20K,50,4,50,0.0060
+ADE20K,50,8,1,0.9250
+ADE20K,50,8,50,0.0050
+Cityscapes,10,4,1,1.0707
+Cityscapes,10,4,10,0.0253
+Cityscapes,10,8,1,1.0650
+Cityscapes,10,8,10,0.0240
+Cityscapes,50,4,1,1.0600
+Cityscapes,50,4,50,0.0050
+Cityscapes,50,8,1,1.0550
+Cityscapes,50,8,50,0.0040

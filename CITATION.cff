@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this repository, acknowledge the research report and distinguish the reference implementation from the original experiments."
+title: "MAE-ViT for Label-Efficient Semantic Segmentation"
+type: software
+authors:
+  - family-names: Tareq
+    given-names: Md Ikram
+repository-code: "https://github.com/MD-IKRAM169/mae-vit-label-efficient-segmentation"
+abstract: "Reference PyTorch code and documented findings from a 2025 MAE-ViT research project; reported scores are not independently verified."

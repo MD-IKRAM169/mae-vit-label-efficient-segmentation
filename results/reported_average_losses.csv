@@ -1,0 +1,17 @@
+dataset,stage,epochs,batch_size,reported_average_loss
+ADE20K,pretrain,10,4,0.2087
+ADE20K,pretrain,10,8,0.2000
+ADE20K,pretrain,50,4,0.1200
+ADE20K,pretrain,50,8,0.1150
+Cityscapes,pretrain,10,4,0.1931
+Cityscapes,pretrain,10,8,0.1850
+Cityscapes,pretrain,50,4,0.1500
+Cityscapes,pretrain,50,8,0.1400
+ADE20K,finetune,10,4,3.8832
+ADE20K,finetune,10,8,3.8000
+ADE20K,finetune,50,4,2.5000
+ADE20K,finetune,50,8,2.4500
+Cityscapes,finetune,10,4,2.1218
+Cityscapes,finetune,10,8,2.0500
+Cityscapes,finetune,50,4,1.5000
+Cityscapes,finetune,50,8,1.4500
