@@ -1,19 +1,66 @@
+
+# Python cache
 __pycache__/
 *.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Testing and coverage
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-.venv/
-venv/
+.coverage
+htmlcov/
+
+# Development environments
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# Credentials and environment variables
 .env
-*.egg-info/
-build/
-dist/
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Datasets and annotations
 data/
+datasets/
+
+# Training outputs and model checkpoints
 outputs/
 checkpoints/
+runs/
+wandb/
+lightning_logs/
 *.pt
 *.pth
 *.ckpt
+*.safetensors
+*.onnx
+
+# Private research materials
+/private/
+/scratch/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+
+# Build artifacts
+*.egg-info/
+build/
+dist/
+
+# Operating system files
 .DS_Store
-.ipynb_checkpoints/
+Thumbs.db
+desktop.ini
