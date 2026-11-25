@@ -1,7 +1,6 @@
 <h1 align="center">MAE-ViT for Label-Efficient Semantic Segmentation</h1>
 
 <p align="center"><strong>Self-Supervised Learning · Computer Vision · Semantic Segmentation</strong></p>
-<p align="center">Academic Research Project · Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-306998?style=for-the-badge&logo=python&logoColor=white" alt="Python">
